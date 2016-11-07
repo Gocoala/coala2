@@ -1,0 +1,132 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+
+@media screen and (max-width: 320px)
+{
+/*
+	.items div { margin: 0; }
+	.items { padding: 20; }
+*/
+}
+
+html
+{
+	/* IE fix */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+} 
+
+/*
+header, nav, section, footer
+*/
+header, nav, footer
+{
+	padding: 0px;
+	margin: 0;
+	border: 2px solid #fff;
+	border-radius: 10px;
+	color: black;
+	background-color: #eaeced;
+}
+
+body
+{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	min-height: 100vh;
+	margin: 0;
+	background: white;
+	font-family: 'Proza Libre', sans-serif;
+}
+
+.menu
+{
+	background-color: #c8cbcc;
+	text-align: right;
+}
+
+.menu ul
+{
+/*
+	display: block;
+	display: -webkit-flex;
+*/
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-flow: row wrap;
+	    flex-flow: row wrap;
+	height: auto;
+/*
+	font-size: 10px;
+*/
+	font-size: 12.8px;
+	font-size: 0.8rem;
+	line-height: 1.2em;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.21em;
+	color: #fdbb07;
+	background-color: #eaeced;
+	white-space: nowrap;
+/*
+	resize: vertical;
+	overflow: auto;
+*/
+}
+
+.menu li:first-child
+{
+	margin-right: auto;
+	width: 40px;
+}
+
+.menu li
+{
+	list-style-type: none;
+/*
+	border: 1px solid red;
+*/
+}
+
+.menu li a
+{
+/*
+	color: #fff;
+*/
+	color: #000;
+	text-decoration: none;
+	margin: 10px;
+	border-radius: 10px;
+	background: #dde1e2;
+	display: block;
+	padding: 10px;
+}
+
+.menu li a.logo
+{
+	background: #eaeced;
+}
+
+
+.footer
+{
+	background: #eaeced;
+	text-align: center;
+	color: black;
+	font-size: 12px;
+	padding: 3px;
+}
+
+
+

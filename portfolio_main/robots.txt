@@ -1,0 +1,3 @@
+Sitemap: http://nicolelaing.ca/portfolio_wireframes/sitemap.xml
+User-agent: *
+Disallow: /img
