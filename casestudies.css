@@ -195,7 +195,7 @@ p.content
 
 .layers
 {
-	background: #eaeced;
+	background: white;
 	margin: .5vw;
 	padding: .5vw;
 /*
@@ -215,9 +215,8 @@ p.content
 
 .layer h3
 {
-/*
-	color: #00adef;
-*/
+
+	color: #acc3f8;
 	font-size: 30px;
 }
 
@@ -257,5 +256,3 @@ p.content
 	margin: 0;
 	padding: 20px;
 }
-
-
