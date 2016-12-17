@@ -184,7 +184,7 @@ p.content
 */
   font-weight: 400;
   letter-spacing: 0.4;
-  color: #008CC1;
+  color: #8e8e8e;
   text-align: center;
 }
 
@@ -195,7 +195,7 @@ p.content
 
 .layers
 {
-	background: #FFFFFF;
+	background: white;
 	margin: .5vw;
 	padding: .5vw;
 /*
@@ -215,11 +215,9 @@ p.content
 
 .layer h3
 {
-/*
-	color: #00adef;
-*/
+
+	color: #acc3f8;
 	font-size: 30px;
-	color: #a4b9f8;
 }
 
 .layer .points

@@ -1,2 +1,3 @@
-baseurl: /Gocoala/coala/tree/gh-pages/portfolio_wireframes
-exclude: ['README.md'] 
+#baseurl: /Gocoala/coala/tree/gh-pages/portfolio_wireframes
+baseurl: 
+exclude: ['README.md']

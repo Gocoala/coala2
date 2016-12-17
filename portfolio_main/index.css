@@ -122,3 +122,24 @@ main
   color: #a4b9f8;
   padding: 5px;
 }
+
+.flexboxContainer
+{
+  display:flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.img
+{
+  max-width: 25%;
+  padding: 2.5;
+}
+
+@ media screen and (min-width: 768px)
+{
+img
+  {
+      max-width: 35%;
+  }
+}

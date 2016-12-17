@@ -5,6 +5,7 @@
 		<title>Graphic Designer - Nicole Laing – Ottawa, Canada</title>
 		<meta name="handheldfriendly" content="true">
 		<meta name="mobileoptimized" content="240">
+		<meta name="viewport" content="width=700">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="Nicole Laing's portfolio site – designer">
 		<link href="https://fonts.googleapis.com/css?family=Proza+Libre" rel="stylesheet">
@@ -16,18 +17,33 @@
 
     <body>
 
+<div class="flexboxContainerWrap">
+	<div>
+		<nav>
+			<ul class="skip-links">
+				<li><a href="#nav">Skip to navigation</a></li>
+				<li><a href="#main">Skip to the main content</a></li>
+			</ul>
+			<ul class="main-nav" id="main">
+				<li id="logo"><a href="index.html" class="logo"><img src="prod/Nicole4.png" width="176" height="50" alt="Nicole Laing Designer"></a></li>
+			</ul>
+		</nav>
+	</div>
 
-<nav class="menu">
-	<ul class="main-nav">
-		<li class="logoStyle"><a href="index.html" class="logo"><img src="prod/Nicole2.png" width="236" height="68" alt="Nicole Laing Designer"></a></li>
-		<li><a class="link-1" href="index.html">About</a></li>
-		<li><a class="link-1" href="casestudies.html#case1">Case Studies</a></li>
-		<li><a class="link-1" href="contact.html">Contact</a></li>
-	</ul>
-</nav>
+	<div class="navigation-container">
+		<nav class="menu" role="navigation" id="nav">
+			<ul class="main-nav">
+				<li><a class="link-1" href="index.html">About</a></li>
+				<li><a class="link-1" href="casestudies.html#case1">Case studies</a></li>
+				<li><a class="link-1" href="contact.html">Get in touch</a></li>
+			</ul>
+		</nav>
+	</div>
+</div>
+
 {{content}}
 
-<footer class="footer">
+<footer class="footer" role="contentinfo">
 @&nbsp;Copyright 2016
 </footer>
 
