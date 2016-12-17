@@ -1,0 +1,23 @@
+#humanstxt.org
+
+# TEAM
+
+Designer: Nicole Laing <nicole.laing@gmail.com>
+Site: http://nicolelaing.ca
+GitHub: https://github.com/Gocoala/Portfolio3
+Twitter:
+Location: Ottawa, Canada
+
+---
+
+# THANKS
+
+---
+
+# TECHNOLOGY
+
+## Software
+
+- Atom
+- Git + GitHub
+- Markdown
